@@ -22,7 +22,35 @@ const furnacent = [
   "railcraft:tunnel_bore",
   "integrateddynamics:crafting/coal_generator"
 ]
-
+const tfcMetallics = [
+  'bismuth',
+  'bismuth_bronze',
+  'black_bronze',
+  'bronze',
+  'brass',
+  'copper',
+  'gold',
+  'nickel',
+  'rose_gold',
+  'silver',
+  'tin',
+  'zinc',
+  'sterling_silver',
+  'wrought_iron',
+  'steel',
+  'black_steel',
+  'blue_steel',
+  'red_steel',
+  'tungsten_carbide',
+  'damascus_steel',
+  'tungsten_steel',
+  'cobalt_brass',
+  'vanadium_steel',
+  'ultimet',
+  'invar',
+  'aluminium',
+  'titanium'
+]
 let replaceRecipes = (/** @type {Internal.RecipesEventJS} */ event) => {
   event.replaceOutput({ type: "minecraft:crafting_shaped" }, "minecraft:torch", "tfc:torch")
   event.replaceInput({ type: "minecraft:crafting_shaped" }, "minecraft:cobblestone_slab", "#forge:slabs/cobblestone")
@@ -53,7 +81,7 @@ let replaceRecipes = (/** @type {Internal.RecipesEventJS} */ event) => {
   event.replaceInput({ id: "railcraft:steam_locomotive" }, "railcraft:blast_furnace_bricks", "gtceu:firebricks")
 
   //TFC
-  tfcMetal.forEach((metal) => {
+  tfcMetallics.forEach((metal) => {
     event.replaceInput({ type: "minecraft:crafting_shaped" }, `tfc:metal/sheet/${metal}`, `#forge:plates/${metal}`)
     event.replaceInput(
       { type: "minecraft:crafting_shaped" },
@@ -62,6 +90,8 @@ let replaceRecipes = (/** @type {Internal.RecipesEventJS} */ event) => {
     )
   })
 
+  //Firmalife
+  event.replaceInput({ mod: "firmalife"}, "firmalife:metal/ingot/chromium", "gtceu:chromium_ingot" )
   //Immersive Engineering
   event.replaceInput({ id: "gtceu:shaped/compressed_coke_clay"}, "minecraft:clay_ball", "tfc:fire_clay")
 }
