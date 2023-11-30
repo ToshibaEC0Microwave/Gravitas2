@@ -8,11 +8,7 @@
     "gravitas.chapters.5.title": "Blast Furnace (To make a different Anvil)",
     "gravitas.chapters.6.title": "Anvils to beat you Black, Red and Blue",
     "gravitas.chapters.7.title": "The Moon has Anvils",
-    "gravitas.chapters.8.title": "Create Beginning",
-    "gravitas.chapters.9.title": "Create Brass Age",
-    "gravitas.chapters.10.title": "Create Bronze Age",
-    "gravitas.chapters.11.title": "Create Rails",
-    "gravitas.chapters.12.title": "Create New Age",
+
 
     "gravitas.quest.caveman.start_somewhere": "Gotta Start Somewhere!",
     "gravitas.quest.caveman.logpile": "Any #tfc:log_pile_logs",
@@ -62,8 +58,6 @@
     "gravitas.quest.copper.charcoal_forge": "Charcoal Forge",
 
 
-    "gravitas.quest.igneous.igneous_zinc_alloy.title": "Igneous Zinc Alloy",
-
     "gravitas.quest.bronze.bronze_anvil": "Bronze Anvil",
     "gravitas.quest.bronze.crucible": "Mixing It Up",
     "gravitas.quest.bronze.zinc_alloy": "Let's get CREATEive",
@@ -104,7 +98,7 @@
     "gravitas.quest.blacksteel.going_deeper": "Going Deeper",
 
 
-    "gravitas.quest.moon.t1_rocket": "Bang, Zoom, Straight to the Moon!",
+    "gravitas.quest.moon.t1_rocket": "Bang, Zoom, Straight to the Moon!", 
 
 
     "gravitas.quest.caveman.desc.start_somewhere": "Now armed with tools, the first thing you can do is go and collect logs from trees.",
@@ -131,7 +125,7 @@
     "gravitas.quest.caveman.desc.squeegee": "This is the 3rd stage of making leather. Place the soaked hide on a log, then scrape all of the limewater off the hide with your trusty knife.",
     "gravitas.quest.caveman.desc.soak_2": "To prepare the scraped hide, we need to wash it with water.",
     "gravitas.quest.caveman.desc.leather.1": "The final process is putting the prepared Hide into a barrel full of Tannin.",
-    "gravitas.quest.caveman.desc.leather.2": "Tannin is made by adding certain logs, such as &3Oak, Birch, Chestnut, Douglas Fir, Hickory or Maple &finto a barrel of water.",
+    "gravitas.quest.caveman.desc.leather.2": "Tannin is made by adding certain logs, such as &3Oak, Birch, Chestnut, Douglas Fir, Hickory or Maple &finto a barrel of water.",    
     "gravitas.quest.caveman.desc.beehive_frame": "These are used in the Beehives and are what holds the Queen Bees and the honey/Beeswax.",
     "gravitas.quest.caveman.desc.beekeeper_set": "Make sure to make a set of beekeeper armour, or you'll get stung when collecting honey and wax!",
     "gravitas.quest.caveman.desc.beehive": "The Beehive is where you store the Frames. You can store 4 frames in 1 beehive. The more frames in 1 beehive the higher the chance for a Queen to move in. This can also be increased by placing flowers in a 5 block radius of the beehive.",
